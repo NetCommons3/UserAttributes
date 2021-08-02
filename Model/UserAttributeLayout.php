@@ -79,7 +79,7 @@ class UserAttributeLayout extends UserAttributesAppModel {
 
 		try {
 			//UserAttributeLayoutテーブルの登録
-			if (! $this->saveField($fieldName, $data[$this->alias][$fieldName], false)) {
+			if (! $this->saveField($fieldName, $data[$this->alias][$fieldName], ['callbacks' => false])) {
 				throw new InternalErrorException(__d('net_commons', 'Internal Server Error'));
 			}
 
