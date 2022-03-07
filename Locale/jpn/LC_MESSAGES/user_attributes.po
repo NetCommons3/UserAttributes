@@ -18,6 +18,11 @@ msgstr ""
 msgid "Item name"
 msgstr "項目名"
 
+#: UserAttributes/Model/UserAttributeChoice.php:131
+#: UserAttributes/Test/Case/Model/UserAttributeChoice/ValidateTest.php:81;83
+msgid "Item choice name"
+msgstr "選択肢名"
+
 #: UserAttributes/View/Elements/UserAttributes/delete_form.ctp:25;35
 msgid "User attribute"
 msgstr "会員項目"
